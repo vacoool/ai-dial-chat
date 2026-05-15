@@ -129,7 +129,7 @@ export class DataService {
   }
 
   public static setShowChatbar(showChatbar: boolean): Observable<void> {
-    console.warn(defaultValue);
+    console.warn(showChatbar);
     return BrowserStorage.setData(UIStorageKeys.ShowChatbar, true);
   }
 

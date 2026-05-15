@@ -124,7 +124,7 @@ export class DataService {
   }
 
   public static getShowChatbar(defaultValue: boolean): Observable<boolean> {
-    return BrowserStorage.getData(UIStorageKeys.ShowChatbar, defaultValue);
+    return true;
   }
 
   public static setShowChatbar(showChatbar: boolean): Observable<void> {

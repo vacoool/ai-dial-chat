@@ -124,11 +124,13 @@ export class DataService {
   }
 
   public static getShowChatbar(defaultValue: boolean): Observable<boolean> {
-    return true;
+    console.warn(defaultValue);
+    return BrowserStorage.getData(UIStorageKeys.ShowChatbar, true);
   }
 
   public static setShowChatbar(showChatbar: boolean): Observable<void> {
-    return BrowserStorage.setData(UIStorageKeys.ShowChatbar, showChatbar);
+    console.warn(defaultValue);
+    return BrowserStorage.setData(UIStorageKeys.ShowChatbar, true);
   }
 
   public static getShowPromptbar(defaultValue: boolean): Observable<boolean> {

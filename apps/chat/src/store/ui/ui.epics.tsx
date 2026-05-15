@@ -46,7 +46,9 @@ const initEpic: AppEpic = (action$, state$) =>
       const enabledFeatures = SettingsSelectors.selectEnabledFeatures(state);
 
       return forkJoin({
-        showChatbar: true,
+        showChatbar: DataService.getShowChatbar(
+          true,
+        ),
         showPromptbar: DataService.getShowPromptbar(
           enabledFeatures.has(Feature.ShowPromptsSectionByDefault) &&
             !isTabletScreenOrMobile(),

@@ -1,0 +1,18 @@
+{
+  "Login": "تسجيل الدخول",
+  "Log out": "تسجيل الخروج",
+  "Confirm logging out": "تأكيد تسجيل الخروج",
+  "Are you sure that you want to log out?": "هل أنت متأكد من أنك تريد تسجيل الخروج؟",
+  "Cancel": "إلغاء",
+  "User": "المستخدم",
+  "User profile": "ملف تعريف المستخدم",
+  "Settings": "الإعدادات",
+  "User avatar": "صورة المستخدم",
+  "Account settings": "إعدادات الحساب",
+  "New conversation": "محادثة جديدة",
+  "New prompt": "مطالبة جديدة",
+  "Filters": "المرشحات",
+  "Prompts": "المطالبات",
+  "Conversations": "المحادثات"
+}
+
